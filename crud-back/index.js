@@ -16,7 +16,6 @@ app.use( express.static( './public' ) );
 app.use( cors() );
 
 
-
 //Lectura y parseo del body
 app.use( express.json() );
 
